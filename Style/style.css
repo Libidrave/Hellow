@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Ketik code Anda dibawah */
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://source.unsplash.com/1000x600?design);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  /* opacity: 0.7; */
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+.top-wrapper span {
+  color: yellow;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.Selengkapnya {
+  border: white solid 1px;
+  display: inline-block;
+  color: black;
+}
+
+.Selengkapnya:hover{
+    background-color:#2b383f;
+    border: 1px solid #2b383f;
+    color: white;
+    transition: all 0.6s ease;
+    opacity: 1;
+}
+
+.Hubungi-Kami {
+  background-color: rgba(43, 56, 63, 1);
+  color: white;
+}
+
+.Hubungi-Kami:hover{
+    border: 1px solid white;
+    color: black;
+    background-color:transparent;
+    transition: all 0.6s ease;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 12px 25px;
+  /* color: white; */
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* .btn:hover {
+  opacity: 1;
+} */
+
+nav {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.menu-link {
+  float: right;
+  padding: auto;
+}
+.menu-link a {
+  line-height: 65px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.menu-link a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.pembatas{
+  margin-bottom: 80px;
+}
+/* PROGRESS BAR */
+/* .container .progress{
+    height: 300px;
+} */
+.progress{
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.progress-element{
+    /* width:25%;
+    float: left; */
+    flex: 0 1 220px;
+}
+
+progress{
+    background: #f9c74f;
+    color: #f9c74f;
+}
+
+progress::-webkit-progress-value {
+    background: #f9c74f;
+  }
+  
+progress::-moz-progress-bar {
+    background: #f9c74f;
+}
+
+.progress-label {
+    position: relative;
+  }
+  
+.progress-label::after {
+    content: "";
+    position: absolute;
+    top:0;
+  }
+
+.txt-desc{
+  margin-bottom:50px;
+}
+
+.judul{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.deskripsi{
+    text-align: center;
+    margin-bottom:80px;
+}
+
+/* Portofolio */
+.Portofolio {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Produk {
+  display:flex;
+  justify-content: center;
+}
+
+.Produk img{
+  flex: auto;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color:#2b383f;
+}
+.main-footer h3{
+  margin-top:20px;
+  font-size:30px;
+  color:white;
+}
+.main-footer p{
+  color:white;
+  padding:5px auto 0 auto;
+}
+.main-footer img{
+  width:20px;
+}
+.social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.social-media li{
+  margin:20px;
+}
+
+.copyright {
+  padding:10px;
+  text-align: center;
+  max-height:50px;
+  background-color:rgb(34, 49, 52);
+}
+
+.copyright p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color:white;
+}
+@media(max-width:1000px){
+  .main-footer h3{
+    font-size:20px;
+  }
+  .main-footer p{
+    font-size:15px;
+  }
+  .main-footer img{
+    width:17px;
+  }
+  .social-media li{
+    margin:10px 15px 15px 15px;
+  }
+  .copyright p {
+    font-size:12px;
+  }
+  .progress{
+    flex-wrap: wrap;
+  }
+  .progress-element{
+    flex-shrink: 1;
+    width:50%;
+  }
+  .judul{
+    font-size: 14px;
+  }
+  .deskripsi{
+    font-size: 14px;
+    text-align: left;
+  }
+  .Produk{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Produk img{
+    width: 50%;
+  }
+}
+@media(max-width:670px){
+  .main-footer h3{
+    font-size:18px;
+  }
+  .main-footer p{
+    font-size:12px;
+  }
+  .main-footer img{
+    width:17px;
+  }
+  .social-media li{
+    margin:8px;
+  }
+  .copyright p {
+    font-size:10px;
+  }
+  .progress{
+    text-align:center;
+    flex-direction: column;
+  }
+  .progress-element{
+    margin: 0 auto;
+  }
+  .txt-desc{
+    margin-bottom: 20px;
+  }
+  .txt-desc{
+    margin-bottom: 0px;
+  }
+  .Produk{
+    flex-direction: column;
+  }
+  .Produk img {
+    margin: 0 auto;
+  }
+}
