@@ -1,0 +1,123 @@
+@media(max-width:1000px){
+    .container{
+      max-width: 100%;
+    }
+    .menu-link a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 110px;
+        margin: 13px auto;
+    }
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+    .top-wrapper p{
+        font-size: 16px;
+    }
+    .btn-wrapper{
+        font-size: 14px;
+    }
+    .main-footer h3{
+      font-size:24px;
+    }
+    .main-footer p{
+      font-size:16px;
+    }
+    .main-footer img{
+      width:17px;
+    }
+    .social-media li{
+      margin:10px 15px 15px 15px;
+    }
+    .copyright p {
+      font-size:12px;
+    }
+    .progress{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .progress-element{
+      flex-shrink: 1;
+      width:50%;
+    }
+    .judul h1{
+      font-size: 32px;
+    }
+    .deskripsi p{
+      font-size: 16px;
+      text-align: justify;
+    }
+    .Produk{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .Produk img{
+      width: 50%;
+    }
+  }
+  @media(max-width:670px){
+    .container{
+      max-width: 100%;
+    }
+    .top-wrapper h1 span{
+        font-size: 16px;
+    }
+    .top-wrapper h1{
+        text-align: justify;
+        font-size: 20px;
+    }
+    .menu-link{
+        display: none;
+    }
+    .menu-icon{
+        visibility: visible;
+        color:white;
+        float:right;
+        margin: 25px auto;
+    }
+    .menu-icon:hover{
+        color: #f9c74f;
+        transition: all 0.6s ease;
+    }
+    .btn{
+        width: 100%;
+    }
+    .Selengkapnya{
+        margin-bottom: 10px;
+    }
+    .main-footer h3{
+      font-size:18px;
+    }
+    .main-footer p{
+      font-size:12px;
+    }
+    .main-footer img{
+      width:17px;
+    }
+    .social-media li{
+      margin:8px;
+    }
+    .copyright p {
+      font-size:10px;
+    }
+    .progress{
+      text-align:center;
+      flex-direction: column;
+    }
+    .progress-element{
+      margin: 0 auto;
+    }
+    .txt-desc{
+      margin-bottom: 20px;
+    }
+    .txt-desc{
+      margin-bottom: 0px;
+    }
+    .Produk{
+      flex-direction: column;
+    }
+    .Produk img {
+      margin: 0 auto;
+    }
+  }
