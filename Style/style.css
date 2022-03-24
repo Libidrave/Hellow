@@ -126,6 +126,13 @@ nav {
   float: left;
 }
 
+.menu-icon {
+  color: #fff;
+  margin: 25px auto;
+  float:right;
+  visibility: hidden;
+}
+
 .menu-link {
   float: right;
   padding: auto;
@@ -207,7 +214,6 @@ progress::-moz-progress-bar {
 }
 .Produk {
   display:flex;
-  justify-content: center;
 }
 
 .Produk img{
@@ -260,78 +266,4 @@ footer {
   word-spacing: 2px;
   text-transform: capitalize;
   color:white;
-}
-@media(max-width:1000px){
-  .main-footer h3{
-    font-size:20px;
-  }
-  .main-footer p{
-    font-size:15px;
-  }
-  .main-footer img{
-    width:17px;
-  }
-  .social-media li{
-    margin:10px 15px 15px 15px;
-  }
-  .copyright p {
-    font-size:12px;
-  }
-  .progress{
-    flex-wrap: wrap;
-  }
-  .progress-element{
-    flex-shrink: 1;
-    width:50%;
-  }
-  .judul{
-    font-size: 14px;
-  }
-  .deskripsi{
-    font-size: 14px;
-    text-align: left;
-  }
-  .Produk{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .Produk img{
-    width: 50%;
-  }
-}
-@media(max-width:670px){
-  .main-footer h3{
-    font-size:18px;
-  }
-  .main-footer p{
-    font-size:12px;
-  }
-  .main-footer img{
-    width:17px;
-  }
-  .social-media li{
-    margin:8px;
-  }
-  .copyright p {
-    font-size:10px;
-  }
-  .progress{
-    text-align:center;
-    flex-direction: column;
-  }
-  .progress-element{
-    margin: 0 auto;
-  }
-  .txt-desc{
-    margin-bottom: 20px;
-  }
-  .txt-desc{
-    margin-bottom: 0px;
-  }
-  .Produk{
-    flex-direction: column;
-  }
-  .Produk img {
-    margin: 0 auto;
-  }
 }
